@@ -3,5 +3,5 @@
 function searchString($string1,$string){
     return strpos($string1,$string);
 }
-echo searchString("Thanh","Dinh Thanh");
+echo searchString("Dinh Thanh","Thanh");
 ?>
