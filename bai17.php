@@ -1,7 +1,10 @@
 <?php
 //17Viết một chương trình PHP để kiểm tra xem một chuỗi có chứa một chuỗi con khác không sử dụng hàm strstr().
-function findString17($string, $string1){
-    return strpos($string, $string2);
-}
-echo findString17("dinh thanh", "thanh");
+$findString17 = strpos("dinh thanh", "thanh");
+   if ($findString17 !== false) {
+   echo "chuoi co chua chuoi con ";
+   } else {
+             echo "chuoi khong chua chuoi con";
+   }
+
 ?>
